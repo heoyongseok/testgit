@@ -1,0 +1,9 @@
+.ag-theme-balham .deleted {
+    background-color: sandybrown !important;
+}
+.ag-theme-balham .updated {
+    background: lightcoral !important;
+}
+.updated {
+    background: lightcoral;
+}

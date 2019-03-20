@@ -1,0 +1,23 @@
+<div id="outdiv">
+    <h1>ts</h1>
+	<h3>[LOGIN]</h3><br />
+	{{businessCode}}
+    <mat-form-field>
+        <mat-label>사업장</mat-label>
+		<input matNativeControl id="businessCode" type="text" [(ngModel)]="businessCode"/>
+	</mat-form-field><br />
+
+<mat-form-field>
+		<mat-label>부서코드</mat-label>
+
+		<input matNativeControl id="deptCode"/>
+	</mat-form-field><br />
+<mat-form-field>
+		<mat-label>사원번호</mat-label>
+		<input matNativeControl/>
+	</mat-form-field><br />
+<mat-form-field>
+	<mat-label>비밀번호</mat-label>
+		<input matNativeControl/>
+	</mat-form-field><br />
+</div>

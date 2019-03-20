@@ -1,0 +1,18 @@
+<p>
+  sys works!
+</p>
+<ag-grid-angular 
+  #agGrid
+  style="width: 500px; height: 500px; " 
+  class="ag-theme-balham"
+  [rowData]=dataArray.codeList
+  [columnDefs]="columnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+   >
+</ag-grid-angular>
+<button (click)="getSelectedRows()">Get Selected Rows</button>
+<button (click)="addRows()">addRows</button>
+<button (click)="editRow()">editRows</button>
+<button (click)="deleteRow()">deleteRow</button>
+<button (click)="getEditedData()">sendEditedData</button>
